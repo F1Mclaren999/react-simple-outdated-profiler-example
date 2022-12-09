@@ -1,0 +1,21 @@
+body {
+  font-family: Lato;
+}
+
+#outer-div {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  border: 1px solid darkblue;
+  cursor: pointer;
+}
+
+#outer-div > * {
+    margin-top: 20px;
+    padding: 2px;
+    border: 1px solid grey;
+  }
+
+#main {
+  color: darkcyan
+}
